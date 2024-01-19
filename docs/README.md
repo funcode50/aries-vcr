@@ -210,7 +210,7 @@ Note that if you are running the demo issuer with the "base" version of the Arie
 
 The Client is an optional web application that provides a UI to the API for searching and viewing credential details. If you are a first-time user of Aries VCR, it is recommended to run the Client to see how the API can be consumed in a client-facing application. You may additionally choose to base your own registry client off of the Client (by extending the Client) or build your own from scratch.
 
-See details in the [bcgov/aries-vcr-client](https://github.com/bcgov/aries-vcr-client) repo for more details on how to run and extend the Client where necessary. The Client can be simply run with the following command:
+See details in the [bcgov/aries-vcr-client](https://github.com/bcgov/aries-vcr-client) repo for more details on how to run and extend the Client where necessary. The Client can be simply run with the following command, from the docker/ folder:
 
 ```bash
 ./manage build
